@@ -1,0 +1,78 @@
+@font-face {
+    font-family: MavenPro;
+    src: url(../fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+.devices{
+    display: flex;
+    justify-content: center;
+}
+header{
+    text-align: center;
+}
+body{
+    background-color: #2a2e16;
+    color: #c7bcaa;
+    font-family: MavenPro;
+}
+footer{
+    background-color: #2a2e16;
+    color: #c7bcaa;
+    font-family: MavenPro;
+    text-align: center;
+}
+
+a{
+    color: #c7bcaa;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    display: inline-block;
+    float: none;
+    font-family: MavenPro;
+    font-size: 16px;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #c7bcaa;
+    text-decoration: none;
+}
+
+table {
+    border: 1px solid #c7bcaa;
+    border-collapse: collapse;
+    margin: 0;
+    align-items: center;
+    align-self: center;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #2a2e16;
+    border: 1px solid #c7bcaa;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  

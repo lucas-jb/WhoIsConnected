@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\View;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/vista1', function(){
+    return view('vista1', ['nombre' => 'Lucas']);
+});
+
+if (View::exists('vista')) {
+    Route::get('/vista', function () {
+        return view('404');
+    });
+}

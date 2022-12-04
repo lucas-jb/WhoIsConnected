@@ -1,0 +1,16 @@
+@font-face {
+    font-family: MavenPro;
+    src: url(../fonts/MavenPro-VariableFont_wght.ttf);
+}
+
+body 
+{
+    background-color: #853d2e;
+    color: azure;
+    font-family: MavenPro;
+}
+
+a
+{
+    color: azure;
+}
